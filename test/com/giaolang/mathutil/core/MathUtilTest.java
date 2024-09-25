@@ -53,6 +53,7 @@ public class MathUtilTest {
         long actual = MathUtil.getFactorial(0);
         
         Assert.assertEquals(expected, actual);
+        Assert.assertEquals(2, 5);
         
         
         //Test case #2: n = 0, hy vọng hàm trả về 1
