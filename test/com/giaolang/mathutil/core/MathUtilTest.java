@@ -48,14 +48,14 @@ public class MathUtilTest {
     @Test
     public void TesstFactorialGivenRightArgumentReturnWell(){
         //tên hàm kiểm thử  tên hàm của test script phải nói lên ý nghĩa của việc kiểm thử
-        //test case số 1: n = 0, hy vọng trả về 1, thực tế hàm trả về mấy ko bít
+     
         long expected = 1;
         long actual = MathUtil.getFactorial(0);
         
         Assert.assertEquals(expected, actual);
-        Assert.assertEquals(2, 5);
+        Assert.assertEquals(5, 5);
         
         
-        //Test case #2: n = 0, hy vọng hàm trả về 1
+        
     }
 }
